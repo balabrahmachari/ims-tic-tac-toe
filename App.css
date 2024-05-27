@@ -1,0 +1,100 @@
+/* .tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .tab-list li {
+    margin-right: 20px;
+  }
+  
+  .tab-list li.active {
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: red;
+  } */
+  /* ............................................... */
+
+
+  /* ...............................tic tac toe.................... */
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 100px;
+    background-color: #ddd;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 127, 255, 0.5);
+  }
+  
+  .rs {
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .rs:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 127, 255, 0.5);
+  }
+  
+  .pop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: red; */
+  }
+  
+  .p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ng {
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .ng:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 127, 255, 0.5);
+  }
